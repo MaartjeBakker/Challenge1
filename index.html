@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Your trip to Mars</title>
+		<link rel="stylesheet" type="text/css" href="SpaceX.css">
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0" defer></script>
+		<script src="SpaceX.js" defer></script>
+	</head>
+
+	<body>
+		<main class="container">
+			<article id="tijdDatum">
+				<div id="tijd"></div>
+				<div id="datum"></div>
+			</article>
+
+			<article id="snelheid">
+				<h2>Distance to Mars</h2>
+				<p>52M km / 246M km</p>
+
+				<h2>Speed</h2>
+				<div id="speedChart">
+					<canvas id="speed"></canvas>
+				</div>
+			</article>
+
+			<article id="waterStock">
+				<h2>Water stock</h2>
+				<div id="waterChart">
+					<canvas id="water"></canvas>
+				</div>
+			</article>
+
+			<article id="foodStock">
+				<h2>Food stock</h2>
+				<div id="foodChart">
+					<canvas id="food"></canvas>
+				</div>
+			</article>
+		</main>
+	</body>
+	
+</html>
